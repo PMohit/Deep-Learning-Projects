@@ -17,7 +17,7 @@
 •shear_range : shear_range is for randomly applying shearing transformations.<br/>
 •zoom_range:zoom_range is for randomly zooming inside pictures.<br/>
 •horizontal_flip: horizontal_flip is for randomly flipping half of the images horizontally. <br/>
-•These generators can then be used with the Keras model methods that accept data generators as inputs, fit_generator, evaluate_generator and predict_generator.
+•These generators can then be used with the Keras model methods that accept data generators as inputs, fit_generator, evaluate_generator and predict_generator.<br/>
 • Split the data into train and tests sets with a test size of 20%<br/>
 
 # Model Building
