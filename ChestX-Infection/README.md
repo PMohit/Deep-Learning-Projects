@@ -7,24 +7,24 @@
 
 # Resources Used
 • Packages: pandas, numpy, sklearn, tensorflow, matplotlib,glob,keras, seaborn.<br/>
-• Dataset by Kaggle :  https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
+• Dataset by Kaggle :  https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia <br/>
 
  
 #  Exploratory Data Analysis (EDA)
 
 # Feature Engineering
-• Rescale:  Rescale is a value by which we will multiply the data before any other processing. Our original images consist in coefficients in the 0-255, but such values would be too high for our models to process (given a typical learning rate), so we target values between 0 and 1 instead by scaling with a 1/255. factor.
-•shear_range : shear_range is for randomly applying shearing transformations.
-•zoom_range:zoom_range is for randomly zooming inside pictures.
-•horizontal_flip: horizontal_flip is for randomly flipping half of the images horizontally. 
+• Rescale:  Rescale is a value by which we will multiply the data before any other processing. Our original images consist in coefficients in the 0-255, but such values would be too high for our models to process (given a typical learning rate), so we target values between 0 and 1 instead by scaling with a 1/255. factor.<br/>
+•shear_range : shear_range is for randomly applying shearing transformations.<br/>
+•zoom_range:zoom_range is for randomly zooming inside pictures.<br/>
+•horizontal_flip: horizontal_flip is for randomly flipping half of the images horizontally. <br/>
 •These generators can then be used with the Keras model methods that accept data generators as inputs, fit_generator, evaluate_generator and predict_generator.
-• Split the data into train and tests sets with a test size of 20%
+• Split the data into train and tests sets with a test size of 20%<br/>
 
 # Model Building
 Algorithms used for this project are as follows:<br/>
 • VGG 16-Convolutional Neural Network (CNN)<br/>
 
-![CNN](https://media.geeksforgeeks.org/wp-content/uploads/20200219152207/new41.jpg)
+![CNN](https://media.geeksforgeeks.org/wp-content/uploads/20200219152207/new41.jpg)<br/>
 
 •Classified into 2 categories:<br/>
    * Normal <br/>
