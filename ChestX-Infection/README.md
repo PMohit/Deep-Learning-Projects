@@ -1,11 +1,11 @@
 # Chest Infection Prediction - 
-![Python 3.7](https://img.shields.io/badge/Python-3.7-brightgreen.svg) ![scikit-learnn](https://img.shields.io/badge/Library-Scikit_Learn-orange.svg)  ![Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue.svg)
+![Python 3.7](https://img.shields.io/badge/Python-3.7-brightgreen.svg) ![scikit-learnn](https://img.shields.io/badge/Library-Scikit_Learn-orange.svg)  ![Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![TensorFlow](https://img.shields.io/badge/Library-TensorFlow-orange.svg)
 
 #  Project Overview
-• Created a model that predicts the chest infection.<br/>
+• Created a model that classify whether chest is normal or infected.<br/>
 
 
-# Resources Used
+# Dependencies
 • Packages: pandas, numpy, sklearn, tensorflow, matplotlib,glob,keras, seaborn.<br/>
 • Dataset by Kaggle :  https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia <br/>
 
@@ -24,9 +24,22 @@
 Algorithms used for this project are as follows:<br/>
 • VGG 16-Convolutional Neural Network (CNN)<br/>
 
+### Network Parameter:
+* Rectifier Linear Unit (ReLU) - Hidden Layers <br/>
+* Sigmoid - Output Layer<br/>
+* Adam optimizer<br/>
+* Loss: Categorical CrossEntropy<br/>
+
 ![CNN](https://media.geeksforgeeks.org/wp-content/uploads/20200219152207/new41.jpg)<br/>
 
-•Classified into 2 categories:<br/>
+
+### Model Accuracy:
+* Training Set Accuracy: 97.87%
+* Test Set Accuracy: 82.69%
+* Training Set Loss: 0.0707
+* Test Set Loss: 0.755
+
+•  Classified into 2 categories:<br/>
    * Normal <br/>
    * Pneumonia<br/>
 
